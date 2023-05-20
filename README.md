@@ -7,7 +7,8 @@ __건강검진정보데이터와 혈압혈당데이터 병합__
 ## Decision Tree
 _Decision Tree는 feature inmportance 확인하고 영향력이 센 변수(FBS: 공복혈당)를 제외하는 용도로 사용_
 
-모델 학습 후 feature importance 확인 결과 FBS가 다른 features를 압도할 정도로 높게 나와 FBS 제외하고 모델링 다시 진행
+모델 학습 후 feature importance 확인 결과, FBS가 다른 features를 압도할 정도로 높게 나와 FBS 외외하고 재학습
+
 
 ## Logistic Regression
 _FBS 변수 제외하고 모델 학습 진행_
