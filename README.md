@@ -1,5 +1,3 @@
-# DataMining_9
-
 # 프로젝트 과정
 
 __건강검진정보데이터와 혈압혈당데이터 병합__
@@ -27,14 +25,24 @@ __따라서 minority class(1: 당뇨병 진단내역 있음)에 높은 가중치
 
 ### 모델 학습
 __하이퍼 파라미터__
+
 c=1, max_iter=100
 
 __성능 평가__
+
 -accuracy: 0.61
+
 -precision: 0.065
+
 -recall: 0.64
+
 -f1 score: 0.12
 
+__features 분포 확인__
+
+![가중치 부여 후 변수 분포 시각화](https://drive.google.com/file/d/1ZGj-ziV_DbjwAdproLJD8xAN9kJtSB4G/view?usp=sharing)
+
+_TRIGLYCERIDE 제외하고 0과 1의 분포가 다른 것을 확인_
 
 # 결과
 __LogisticRegression을 사용했을 때 약 61% 예측률을 보여줌__
