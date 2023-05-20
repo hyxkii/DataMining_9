@@ -54,9 +54,10 @@ __LogisticRegression을 사용했을 때 약 61% 예측률을 보여줌__
 
 __당뇨합병증에 영향을 많이 주는 인자를 coef값 활용하여 선정__
 
-|    Feature   |   Coefficient   |
+|  Intercept   |    -107.6542    |
 |--------------|-----------------|
-| Intercept    |    -107.6542    |
+|   Feature    |  Coeffiecient   |
+|--------------|-----------------|
 | SEX          |     0.3010      |
 | SBP          |     0.1957      |
 | DBP          |     0.2101      |
