@@ -1,28 +1,36 @@
 # DataMining_9
 
-## 프로젝트 과정
+# 프로젝트 과정
 
 __건강검진정보데이터와 혈압혈당데이터 병합__
 
 'SEX', 'SBP', 'DBP', 'BMI', 'FBS' 변수들을 기준으로 데이터 병합
 
-### Decision Tree
+## Decision Tree
 _Decision Tree는 feature inmportance 확인하고 영향력이 센 변수(FBS: 공복혈당)를 제외하는 용도로 사용_
 
 모델 학습 후 feature importance 확인 결과 FBS가 다른 features를 압도할 정도로 높게 나와 FBS 제외하고 모델링 다시 진행
 
-### Logistic Regression
+## Logistic Regression
 _FBS 변수 제외하고 모델 학습 진행_
 
+### 가중치 부여
 종속변수인 DIS(당뇨병 진단내역)의 클래스 비율이 맞지 않아 가중치 부여하는 경우와 부여하지 않는 경우 두 가지 경우로 나누어서 분석 진행
 
-분석결과 가중치를 부여하지 않았을 경우 클래스 비율 차이가 너무 커서 accuracy가 극단적으로 높게 나옴
+_분석결과 가중치를 부여하지 않았을 경우:_
+
+-클래스 비율 차이가 너무 커서 accuracy가 극단적으로 높게 나옴
+
+-p-value 값이 0.05보다 낮은 변수들이 적고 정확한 해석 어려움
 
 __따라서 minority class(1: 당뇨병 진단내역 있음)에 높은 가중치를 부여한 후 분석 진행__
 
+###
 
 
-## 결과
+
+
+# 결과
 __LogisticRegression을 사용했을 때 약 61% 예측률을 보여줌__
 
 __당뇨합병증에 영향을 많이 주는 인자를 coef값 활용하여 선정__
