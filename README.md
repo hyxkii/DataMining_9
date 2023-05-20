@@ -41,7 +41,6 @@ __성능 평가__
 __features 분포 확인__
 
 ![가중치 부여 후 변수 분포 시각화](https://drive.google.com/file/d/1ZGj-ziV_DbjwAdproLJD8xAN9kJtSB4G/view?usp=sharing)
-
 _TRIGLYCERIDE 제외하고 0과 1의 분포가 다른 것을 확인_
 
 # 결과
