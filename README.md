@@ -38,7 +38,7 @@ __성능 평가__
 
 -f1 score: 0.12
 
-__features 분포 확인__
+__Features 분포 확인__
 
 _TRIGLYCERIDE 제외하고 0과 1의 분포가 다른 것을 확인_
 
